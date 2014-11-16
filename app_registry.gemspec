@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["i.have@no.mail"]
   spec.description   = %q{Persistent variables storage for rails app}
   spec.summary       = %q{Persistent variables storage for rails app}
-  spec.homepage      = "https://github.com/uno4ki/app_registry"
+  spec.homepage      = "https://github.com/the-furnish/app_registry"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
