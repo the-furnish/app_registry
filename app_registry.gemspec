@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = AppRegistry::VERSION
   spec.authors       = ["uno4ki"]
   spec.email         = ["i.have@no.mail"]
-  spec.description   = %q{Persistent variables storage for rails app}
+  spec.description   = %q{Simple gem for works with persistent variables}
   spec.summary       = %q{Persistent variables storage for rails app}
   spec.homepage      = "https://github.com/the-furnish/app_registry"
   spec.license       = "MIT"
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 10.3"
 
   spec.add_dependency 'activerecord', '>= 3.2', '< 4.2'
 end
