@@ -4,7 +4,6 @@ module AppRegistry
   class AppRegistry < ::ActiveRecord::Base
     self.primary_key = :name
     validates_presence_of :name, :value
-    attr_accessible :name, :value
 
     class << self
       def find_with_default(key, value)
